@@ -1,0 +1,64 @@
+body{
+  background-color: grey;
+}
+.blue{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-top: 50px solid rgba(0, 255, 0, 0);
+  border-bottom: 50px solid rgba(0, 255, 0, 0);
+  border-left: 50px solid rgba(0, 255, 0, 0);
+  border-right: 50px solid blue;
+}
+.red{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-top: 50px solid rgba(0, 255, 0, 0);
+  border-bottom: 50px solid rgba(0, 255, 0, 0);
+  border-left: 50px solid rgba(0, 255, 0, 0);
+  border-right: 50px solid red;
+}
+.white{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-top: 50px solid rgba(0, 255, 0, 0);
+  border-bottom: 50px solid rgba(0, 255, 0, 0);
+  border-left: 50px solid rgba(0, 255, 0, 0);
+  border-right: 50px solid white;
+}
+.botleft{
+  transform: rotate(-60deg);
+}
+.topleft{
+  transform: rotate(60deg);
+}
+.left{
+  transform: rotate();
+}
+.botright{
+  transform: rotate(-45deg);
+}
+.topright{
+  transform: rotate(-45deg);
+}
+.right{
+  transform: rotate(-45deg);
+}
+#a{
+  top:440px;
+  left:50px;
+}
+#i{
+  top:370px;
+  left:30px
+}
+#f{
+  top:-200px;
+  left:30px
+}
+#b{
+  top:-200px;
+  left:30px
+}
