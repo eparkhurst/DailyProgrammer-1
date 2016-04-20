@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  background-color: gray;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.superman,
+.pulpFiction{
+  width: 38vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid white 2px;
+}
+
+.superman{
+  background-color: blue;
+}
+
+.pulpFiction{
+  background-color: red;
+}
+
+.stripe{
+  width: 1vw;
+  height: 40vh;
+  background-color: white;
+  margin-top: 20vh;
+}
+.superman .stripe{
+  transform: rotate(45deg);
+  background: linear-gradient(red, blue);
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  color: yellow;
+}
+
+.text h1{
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.line{
+  height: 0.3vh;
+  width:3vw;
+  background-color: yellow;
+}
+.text p{
+  color:transparent;
+  text-shadow: 0 0 1px yellow;
+  font-size: 0.7rem;
+  border: none;
+  padding:none;
+  margin: 0;
+}
